@@ -1,4 +1,4 @@
-# Coding Challenge
+# Coding Challenge 01
 
 ## Explanation
 The most and least profitable hour of the day for a given restaurant must be found when looking at labour cost.  

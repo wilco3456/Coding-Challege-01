@@ -40,3 +40,31 @@ Hour	Sales   Labour  %
 </pre>
 
 Lastly, the hour which was the best and the worst in terms of labour cost as a percentage of sales must be output.
+
+## Platform Recommendation:
+* This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Python version 3.7, Other systems have not been tested, and it is advised to have caution with untested OS.
+
+## To Start:
+* Open a command line window and navigate to the folder holding the program's *.py* file.
+* Then type: python coding_challege.py work_shifts.csv transactions.csv, which should run the program.
+
+## Example Runtime
+<pre>
+C\...\coding_challenge_py>python coding_challege.py work_shifts.csv transactions.csv
+
+Hour         Sales        Labour       %
+19:00        2            66.0         33.0
+14:00        2            74.0         37.0
+17:00        1            64.0         64.0
+12:00        3            74.0         24.6666666667
+21:00        1            66.0         66.0
+15:00        1            74.0         74.0
+10:00        2            50.0         25.0
+13:00        2            74.0         37.0
+18:00        3            76.0         25.3333333333
+16:00        1            74.0         74.0
+11:00        2            60.0         30.0
+
+Best Hour: 15:00
+Worst Hour: 12:00
+</pre>

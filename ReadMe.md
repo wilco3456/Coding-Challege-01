@@ -25,8 +25,8 @@ This shows you a set of transactions:
 For example: 
 <pre>
 {  
-        'time' : '10:31',  
-        'amount' : 50.32  
+    'time' : '10:31',  
+    'amount' : 50.32  
 } 
 </pre>
 
@@ -34,9 +34,9 @@ The different metrics for the different hours must be computed, such as the tota
 
 For example:
 <pre>
-Hour	Sales	Labour	%  
-7:00	100	    30	    30%  
-8:00	300	    60	    20%  
+Hour	Sales   Labour  %  
+7:00	100     30      30%  
+8:00	300     60      20%  
 </pre>
 
 Lastly, the hour which was the best and the worst in terms of labour cost as a percentage of sales must be output.

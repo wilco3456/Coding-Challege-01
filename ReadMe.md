@@ -4,7 +4,7 @@
 The most and least profitable hour of the day for a given restaurant must be found when looking at labour cost.  
 Two csvs will be provided, one describing the shifts, and one describing the hourly sales.
 
-### LABOUR DATA
+### LABOUR DATA:
 A shift will include the pay-rate (per hour), the start and end time, and a text field where the manager will enter break info. This may vary depending on the individual manager.
 
 For example:
@@ -19,7 +19,7 @@ For example:
 
 The data given shows a shift started at 10AM and ended at 11PM. However, the break_notes "15-18" indicates that the staff member took a 3 hour break in the middle of the day (when they would not be paid). The employee was paid £10 per hour.
 
-### SALES DATA
+### SALES DATA:
 This shows you a set of transactions:
 
 For example: 
@@ -41,10 +41,10 @@ Hour	Sales   Labour  %
 
 Lastly, the hour which was the best and the worst in terms of labour cost as a percentage of sales must be output.
 
-## Platform Recommendation:
+## Platform Recommendation
 * This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Python version 3.7, Other systems have not been tested, and it is advised to have caution with untested OS.
 
-## To Start:
+## To Start
 * Open a command line window and navigate to the folder holding the program's *.py* file.
 * Then type: python coding_challege.py work_shifts.csv transactions.csv, which should run the program.
 
